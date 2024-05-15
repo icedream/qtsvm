@@ -78,7 +78,7 @@ FLASH_RFS1_SIZE=484608
 FLASH_RFS1_BLOCK=484608
 FLASH_RFS1_DEV_PATH=RFS1
 FLASH_RFS2_DEV_PATH=RFS2
-BOOTLOADER_DEV_PATH=tmp/0.img
+BOOTLOADER_DEV_PATH=BOOTLDR
 
 # TODO - no idea how to reconstruct this yet, this is the first 512 bytes dumped from my own NAS
 GRUBSECT_DEV_PATH=dumped/mbr.bin
