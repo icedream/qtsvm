@@ -1,6 +1,6 @@
 # Author: Carl Kittelberger <icedream@icedream.pw>
 
-QNAP_FW_FILENAME=TS-X53A_20240402-5.1.6.2722.zip
+QNAP_FW_FILENAME=TS-X53A_20231225-4.5.4.2627.zip
 QNAP_FW_URL=https://download.qnap.com/Storage/TS-X53II/$(QNAP_FW_FILENAME)
 
 ROOT_DIR=$(CURDIR)
@@ -28,12 +28,10 @@ URL_DIR=http://qne-archive.qnap.com/qne
 BZIMAGE_FILES=\
 	bzImage \
 	bzImage.cksum \
-	bzImage.sig \
 	bzImage.sign
 INITRD_BOOT_FILES=\
 	initrd.boot \
 	initrd.boot.cksum \
-	initrd.boot.sig \
 	initrd.boot.sign
 ROOTFS2_BZ_FILES=\
 	rootfs2.bz \
