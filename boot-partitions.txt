@@ -1,0 +1,12 @@
+label: dos
+label-id: 0xb66e61e9
+device: ./sdh
+unit: sectors
+sector-size: 512
+
+./sdh1 : start=          32, size=        4320, type=83
+./sdh2 : start=        4352, size=      484608, type=83, bootable
+./sdh3 : start=      488960, size=      484608, type=83
+./sdh4 : start=      973568, size=       34048, type=5
+./sdh5 : start=      973600, size=       16608, type=83
+./sdh6 : start=      990240, size=       17376, type=83
